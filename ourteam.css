@@ -1,0 +1,52 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+.head{
+  text-align: center;
+  background: #474e5d;
+  color: white;
+  padding: 40px;
+}
+.head p{
+  margin: auto;
+  margin: 5px 0;
+}
+.heading{
+  text-align: center;
+  margin-top: .8em;
+}
+.card{
+  width: 90%;
+  margin: 1.5em auto;
+  box-shadow: 0 3px 6px 0 rgba(0,0,0,0.3);
+  padding: 1.5em 1em;
+}
+.card h2{
+  margin: 12px 0;
+}
+.card p{
+  margin-bottom: 10px;
+}
+.card img{
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+.shaded{
+  color: grey;
+}
+.card button{
+  color: white;
+  background: black;
+  border: none;
+  width: 100%;
+  padding: .6em 0;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+@media(min-width: 600px){
+  .box1{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+}

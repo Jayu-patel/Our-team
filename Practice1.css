@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar{
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  width: 100%;
+  padding: 10px 0;
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.4);
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  margin-bottom: 1px;
+}
+#logo{
+  font-weight: 800;
+  font-size: 1.45em;
+}
+#btn1,#btn2{
+  padding: 4px 8px;
+  border: none;
+  margin-left: 10px;
+  font-size: 1.10em;
+}
+#btn2{
+  margin: 0 10px 0 0;
+}
+.navigation{
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: #474e5d;
+  background: white;
+  list-style: none;
+  width: 0;
+  height: 0;
+  transition: 0.2s;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.navigation li{
+  padding: 10px 15px;
+  transition: 0.1s;
+  font-weight: 300;
+}
+#nav-head{
+  font-weight: 1000;
+}
+#close-btn{
+  position: absolute;
+  top: 10px;
+  right: 15px;
+}
+#close-btn button{
+  padding: 3px 6px;
+  border: none;
+}
+.options{
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  position: fixed;
+  color: black;
+  background: white;
+  list-style: none;
+  width: 0;
+  height: 0;
+  transition: 0.2s;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.options li{
+  padding: 10px 15px;
+  transition: 0.1s;
+}
